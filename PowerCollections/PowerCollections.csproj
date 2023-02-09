@@ -1,9 +1,24 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
+<?xml version="1.0" encoding="utf-8"?>
+<Project 
+	Sdk="Microsoft.NET.Sdk" 
+	ToolsVersion="4.0" 
+	DefaultTargets="Build" 
+	xmlns="http://schemas.microsoft.com/developer/msbuild/2003"
+>
 	<PropertyGroup>
-		<TargetFramework>netstandard2.1</TargetFramework>
+		<TargetFramework>net461</TargetFramework>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 		<Deterministic>false</Deterministic>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>PowerCollectionsUniversityEdition</Title>
+		<PackageId>$(AssemblyName)UniversityEdition</PackageId>
+		<Authors>$(AssemblyName) Kuznecov</Authors>
+		<Company>$(Authors) Kuznecov</Company>
+		<Description>University Edition Beta</Description>
+		<OutputType>Library</OutputType>
 	</PropertyGroup>
 
+	<Target Name="Build">
+		
+	</Target>
 </Project>

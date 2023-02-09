@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>PowerCollectionsUniversityEdition</id>
+    <version>1.0.0</version>
+    <title>PowerCollectionsUniversityEdition</title>
+    <authors>PowerCollections Kuznecov</authors>
+    <description>University Edition Beta</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Desktop\Nuget\PowerCollections\bin\Release\net461\PowerCollections.dll" target="lib\net461\PowerCollections.dll" />
+  </files>
+</package>

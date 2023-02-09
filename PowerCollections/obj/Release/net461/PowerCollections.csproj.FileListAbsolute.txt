@@ -1,0 +1,9 @@
+D:\Desktop\Nuget\PowerCollections\dist\net461\PowerCollections.dll
+D:\Desktop\Nuget\PowerCollections\dist\net461\PowerCollections.pdb
+D:\Desktop\Nuget\PowerCollections\obj\Release\net461\PowerCollections.csproj.AssemblyReference.cache
+D:\Desktop\Nuget\PowerCollections\obj\Release\net461\PowerCollections.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Nuget\PowerCollections\obj\Release\net461\PowerCollections.csproj.CoreCompileInputs.cache
+D:\Desktop\Nuget\PowerCollections\obj\Release\net461\PowerCollections.dll
+D:\Desktop\Nuget\PowerCollections\obj\Release\net461\PowerCollections.pdb
+D:\Desktop\Nuget\PowerCollections\bin\Release\net461\PowerCollections.dll
+D:\Desktop\Nuget\PowerCollections\bin\Release\net461\PowerCollections.pdb
