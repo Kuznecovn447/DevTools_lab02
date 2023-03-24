@@ -1,6 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
+		<PackageId>KuznecovNikita.PowerCollections</PackageId>
+		<Version>0.0.9</Version>
+		<Authors>KuznecovNikita</Authors>
+		<PackageDescription>KuznecovNikita.PowerCollections University Edition</PackageDescription>
+		<RepositoryUrl>https://github.com/Kuznecovn447/DevTools_lab02.git</RepositoryUrl>
+		
 		<TargetFramework>netstandard2.1</TargetFramework>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 		<Deterministic>false</Deterministic>

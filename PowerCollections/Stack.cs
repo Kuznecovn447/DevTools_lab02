@@ -23,7 +23,7 @@ namespace PowerCollections
             }
         }
 
-        public Stack(int maxSize)
+        public Stack(int maxSize = 100)
         {
             capacity = maxSize;
             stack = new T[capacity];
