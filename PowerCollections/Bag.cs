@@ -33,7 +33,7 @@ namespace Wintellect.PowerCollections
     ///<seealso cref="OrderedBag&lt;T&gt;"/>
     [Serializable]
     public class Bag<T> : CollectionBase<T>, ICloneable
-    {
+    
         // The comparer used to compare KeyValuePairs. Equals and GetHashCode are used.
         private readonly IEqualityComparer<KeyValuePair<T,int>> equalityComparer;
 
