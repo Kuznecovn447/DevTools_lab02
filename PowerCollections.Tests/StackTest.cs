@@ -68,12 +68,12 @@ namespace PowerCollections.Tests
             int[] numbers = new int[] { 1, 2, 3 };
             Stack<int> stack = new Stack<int>(numbers, 10);
 
-            int i = 1;
-            foreach (int el in stack)
+            int i = 3;
+            for (int el = stack.Count; el < 0; el--) 
             {
-                Assert.AreEqual(i++, el);
+                Assert.AreEqual(i--, el);
             }
-        }        
+        }     
 
         [TestMethod]
         public void set_MaxSize_stack_ArrayLength_if_ArrayLength_more_StackLength()
@@ -84,7 +84,7 @@ namespace PowerCollections.Tests
         }
 
         [TestMethod]
-        [ExpectedException(typeof(InvalidOperationException))]
+        [ExpectedException(typeof(IndexOutOfRangeException))]
         public void call_exception_if_stack_overflow()
         {
             Stack<string> stack = new Stack<string>(1);
@@ -101,7 +101,7 @@ namespace PowerCollections.Tests
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentOutOfRangeException))]
+        [ExpectedException(typeof(IndexOutOfRangeException))]
         public void call_exception_if_do_TOP_empty_stack()
         {
             Stack<string> stack = new Stack<string>(0);
@@ -109,7 +109,7 @@ namespace PowerCollections.Tests
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentOutOfRangeException))]
+        [ExpectedException(typeof(OverflowException))]
         public void exception_if_MaxSize_stack_less_Null()
         {
             Stack<string> stack = new Stack<string>(-1);
