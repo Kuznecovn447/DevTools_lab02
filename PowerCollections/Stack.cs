@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace PowerCollections
 {
-    internal class Stack<T>
+    public class Stack<T>
     {
         private T[] stack;
         private int count;
@@ -23,7 +23,7 @@ namespace PowerCollections
             }
         }
 
-        public Stack(int maxSize)
+        public Stack(int maxSize = 100)
         {
             capacity = maxSize;
             stack = new T[capacity];
