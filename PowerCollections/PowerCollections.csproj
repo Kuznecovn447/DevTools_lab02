@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<PackageId>KuznecovNikita.PowerCollections</PackageId>
-		<Version>0.0.10</Version>
+		<Version>0.0.11</Version>
 		<Authors>KuznecovNikita</Authors>
 		<PackageDescription>KuznecovNikita.PowerCollections University Edition</PackageDescription>
 		<RepositoryUrl>https://github.com/Kuznecovn447/DevTools_lab02.git</RepositoryUrl>
